@@ -40,5 +40,5 @@ def main():
     if np.isclose(mean_v1, np.var(P)):
         print("\n结论: ddof=1 (无偏样本方差) 的平均值精确等于总体方差，而 ddof=0 是向下偏低的。")
 
-if __name__ == "main":
+if __name__ == main:
     main()
